@@ -69,7 +69,8 @@ Para completar este teste, você deve concentrar-se principalmente em três arqu
 
 ## Como Executar
 
-1. Clone o repositório: `git clone <URL_DO_REPOSITORIO>`
+1. Clone o repositório: `git clone --recurse-submodules <URL_DO_REPOSITORIO>`
+    1. O objetivo de utilizar o `--recurse-submodules` é realizar o download do submódulo [frontend](github.com/luigi-moretti/frontend/)
 2. Instale as dependências: `yarn install`
 3. Para instalar o projeto, execute o script `./install.sh` 
 4. Inicie a aplicação: `yarn start`
